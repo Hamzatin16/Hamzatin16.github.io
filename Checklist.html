@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Checklist</title>
+    <style>
+        /* Basic Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .add-item {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Check list.IH </h1>
+
+    <div>
+        <input type="text" id="newItem" placeholder="Add new item">
+        <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <ul id="checklist">
+        <li>
+            <input type="checkbox" id="item1" onchange="updateItem(1)">
+            <label for="item1">Item 1</label>
+            <button onclick="removeItem(1)">Remove</button>
+        </li>
+        <li>
+            <input type="checkbox" id="item2" onchange="updateItem(2)">
+            <label for="item2">Item 2</label>
+            <button onclick="removeItem(2)">Remove</button>
+        </li>
+        <!-- You can add more list items here -->
+    </ul>
+
+    <script>
+        // Function to add a new item to the checklist
+        function addItem() {
+            const newItemText = document.getElementById('newItem').value;
+            if (newItemText.trim() !== '') {
+                const checklist = document.getElementById('checklist');
+                const newItemId = 'item' + (checklist.getElementsByTagName('li').length + 1);
+                const li = document.createElement('li');
+                li.innerHTML = `
+                    <input type="checkbox" id="${newItemId}" onchange="updateItem(${newItemId.slice(-1)})">
+                    <label for="${newItemId}">${newItemText}</label>
+                    <button onclick="removeItem(${newItemId.slice(-1)})">Remove</button>
+                `;
+                checklist.appendChild(li);
+                document.getElementById('newItem').value = '';
+            }
+        }
+
+        // Function to remove an item from the checklist
+        function removeItem(id) {
+            const item = document.getElementById('item' + id);
+            if (item) {
+                item.parentElement.remove();
+            }
+        }
+
+        // Function to update the status of an item (checked/unchecked)
+        function updateItem(id) {
+            const checkbox = document.getElementById('item' + id);
+            const label = checkbox.nextElementSibling;
+            if (checkbox.checked) {
+                label.style.textDecoration = 'line-through';
+            } else {
+                label.style.textDecoration = 'none';
+            }
+
+
+
+        }
+    
+    
+    </script>
+</body>
+</html>
