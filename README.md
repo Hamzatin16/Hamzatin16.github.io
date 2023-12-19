@@ -1,25 +1,49 @@
 # Inioluwa Hamzat
 
 ## Summary
-Enthusiastic and dedicated software developer passionate about crafting clean, efficient, and scalable code. With a solid foundation in computer science and a proactive approach to problem-solving, I aim to leverage technology to create meaningful solutions. My journey in the tech industry has honed my skills in software development, project management, and collaboration.
+An aspiring software developer, actively seeking an opportunity within an innovative
+organization that leads the way in embracing the new technological landscape. I bring
+enthusiasm and diligence, prepared to tackle any challenge that comes my way, to expand my
+skillset further. My ambition is to contribute to the next revolutionary phase of the technological
+era by leveraging software development to address challenges and propel advancements. I am
+eager to apply my existing skill set and knowledge, aiming to be instrumental in finding solutions
+for your esteemed organization.
 
 ## Skills
-- Programming Languages: Python, JavaScript, Java, C++
-- Web Development: HTML, CSS, React.js, Node.js
-- Database Management: MySQL, MongoDB
-- Software Development Lifecycle (SDLC)
-- Problem-solving and Algorithm Design
-- Git and Version Control
+- Programming Languages: Python, JavaScript
+- Web Development: HTML, CSS
+- Database Management: MySQL
+Abundant knowledge in both Mathematics and Physics.
+● I can use a wide range of engineering software confidently such as Fusion 360, Ansys,
+and Matlab. I also have projects where I had to present my findings to others while using
+all 3 software. I am also able to learn and use new software quickly.
+● I can use Microsoft Word, Excel, and PowerPoint at a professional level.
+● I can work in a team as a leader or role player in any given task. I can work
+independently as well at a high level.
+● I am capable of working under any circumstance or parameters while keeping the
+standards high and consistent.
+● I have effective and appropriate communication skills.
+● I enjoy taking up challenging problems and I normally find a couple of solutions for them.
+● Fluent in English and Yoruba, while also understanding basic French.
 
 ## Education
-- Bachelor of Science in Computer Science, [University Name], Graduated 20XX
+(Sep 2023 - December 2023) Just IT, Software development skills boot camp
+● (2020 - Present) Nottingham Trent University- BEng(H) Mechanical Eng.
+● (2018 - 2020) Becket Keys Church of England Sixth Form- A level Mathematics, Physics
+and Economics.
+● (2015 - 2018) Cranbrook School- 8 GCSEs including Mathematics and English
+language.
 
 ## Experience
-### Software Engineer Intern
-[Company Name], Location (Month Year - Present)
-- Collaborated with cross-functional teams to develop and implement new software features.
-- Contributed to code reviews, identifying and resolving potential issues for better performance.
-- Assisted in optimizing existing codebase, resulting in improved application efficiency.
+(Summer 2018) Barclays Bank- I was a bank floor assistant and my role was to help our
+customers with their daily bank issues. This role taught me how to deal with customers
+and clients, as well as handle multiple tasks at the same time.
+● (Summer 2020) Amazon Sortation Centre. The role included:
+● Receive and sort inventory
+● Get customer orders ready for delivery
+● Use technology like scanners, computers, and handheld printers
+Working at the sortation centre enhanced my ability to work with different individuals coherently
+and helped me work under pressure while producing high-quality work.
 
 ### Projects
 #### Online Task Manager (Python, Django)
@@ -32,9 +56,6 @@ Enthusiastic and dedicated software developer passionate about crafting clean, e
 - Integrated MongoDB for data storage and implemented payment gateways for seamless transactions.
 - Ensured UI/UX consistency across various devices for an enhanced user experience.
 
-## Certifications
-- Certified Scrum Master (CSM)
-- AWS Certified Developer - Associate
 
 ## Interests
 Outside of coding, I'm passionate about exploring new technologies, participating in hackathons, and contributing to open-source projects. I enjoy staying updated with industry trends and attending tech meetups to network and learn from other professionals.
