@@ -46,15 +46,11 @@ Working at the sortation centre enhanced my ability to work with different indiv
 and helped me work under pressure while producing high-quality work.
 
 ### Projects
-#### Online Task Manager (Python, Django)
-- Designed and developed a web-based task management application using Python and Django.
-- Implemented user authentication, task creation, and task assignment features.
-- Deployed the application on a cloud server using AWS.
+#### Online checklist (html, CSS)
+- designed a checklist
 
-#### E-commerce Website (React.js, Node.js, MongoDB)
-- Led a team in building a responsive e-commerce platform with React.js for frontend and Node.js for backend.
-- Integrated MongoDB for data storage and implemented payment gateways for seamless transactions.
-- Ensured UI/UX consistency across various devices for an enhanced user experience.
+####rock paper scisors (html, css)
+- game created
 
 
 ## Interests
